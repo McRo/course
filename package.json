@@ -1,22 +1,22 @@
 {
   "name": "course",
   "version": "0.0.1",
-  "repository": "https://github.com/Fresnoy/kartel",
+  "repository": "https://github.com/McRo/source",
   "description": "XXXX.",
   "author": {
     "name": "Romain Lefranc",
     "url": "http://"
   },
+  "license": "AGPL-3.0",
   "main": "./lib/index",
   "dependencies": {
     "sass-brunch": "latest"
   },
   "devDependencies": {
-    "bower": "latest",
+    "bower": "*",
     "brunch": "latest",
     "javascript-brunch": "latest",
     "coffee-script-brunch": "latest",
-    "sass-brunch": "latest",
     "css-brunch": "latest",
     "ng-annotate-uglify-js-brunch": "latest",
     "clean-css-brunch": "latest",

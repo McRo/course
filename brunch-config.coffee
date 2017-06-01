@@ -23,11 +23,19 @@ exports.config =
                                 ]
                                 'js/app.js': [
                                         'app/scripts/*.coffee'
+                                        'app/scripts/candidature/*.coffee'
                                         'app/scripts/common/**/*.coffee'
                                         'app/scripts/*.js'
                                 ]
                          order:
                                 before: [
+                                        'bower_components/jquery/dist/jquery.js'
+                                        'bower_components/angular/angular.js'
+                                        'bower_components/angularui/angular-ui.js'
+                                        'bower_component/angularui/angular-ui-ieshiv.js'
+
+                                        'bower_components/codemirror/lib/codemirror.js'
+                                        'bower_components/codemirror/mode/css/css.js'
                                 ]
                                 after: [
 

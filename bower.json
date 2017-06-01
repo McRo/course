@@ -16,16 +16,31 @@
   "ignore": [
     "**/.*",
     "node_modules",
-    "bower_components",
-    "test",
-    "tests"
+    "bower_components"
   ],
   "dependencies": {
-
+    "jquery": "~1.9.1",
+    "bootstrap": "~2.3.2",
+    "leaflet": "1.0.3",
+    "Leaflet.geoCSV": "https://github.com/joker-x/Leaflet.geoCSV.git",
+    "Leaflet.markercluster": "~1.0.5",
+    "Leaflet.label": "~0.2.1"
   },
   "overrides": {
-  },
-  "resolutions": {
-
+    "Leaflet.geoCSV": {
+      "main": [
+        "leaflet.geocsv-src.js"
+      ]
+    },
+    "Leaflet.label": {
+      "main": [
+        "dist/leaflet.label-src.js"
+      ]
+    },
+    "jquery": {
+      "main": [
+        "jquery.js"
+      ]
+    }
   }
 }
