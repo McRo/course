@@ -1,0 +1,25 @@
+{
+  "name": "course",
+  "version": "0.0.1",
+  "repository": "https://github.com/Fresnoy/kartel",
+  "description": "XXXX.",
+  "author": {
+    "name": "Romain Lefranc",
+    "url": "http://"
+  },
+  "main": "./lib/index",
+  "dependencies": {
+    "sass-brunch": "latest"
+  },
+  "devDependencies": {
+    "bower": "latest",
+    "brunch": "latest",
+    "javascript-brunch": "latest",
+    "coffee-script-brunch": "latest",
+    "sass-brunch": "latest",
+    "css-brunch": "latest",
+    "ng-annotate-uglify-js-brunch": "latest",
+    "clean-css-brunch": "latest",
+    "auto-reload-brunch": "latest"
+  }
+}

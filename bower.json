@@ -1,0 +1,31 @@
+{
+  "name": "course",
+  "version": "0.0.1",
+  "homepage": "https://github.com/Fresnoy/kartel",
+  "authors": [
+    "Romain Lefranc <romain.lefranc@gmail.com>"
+  ],
+  "description": "course",
+  "main": "index.html",
+  "keywords": [
+    "frontend",
+    "zoning"
+  ],
+  "license": "AGPL v3",
+  "private": false,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+
+  },
+  "overrides": {
+  },
+  "resolutions": {
+
+  }
+}
